@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pop Cat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pop Cat v1.0</h1>
+        <p>Click on the cat to make it pop! <span id="counter">0</span> pops</p>
+        
+        <div class="pop-cat" id="popCat">
+            <img src="cat.jpg" alt="Pop Cat Closed Mouth" id="catClosed" class="visible">
+            <img src="catpop.jpg" alt="Pop Cat Open Mouth" id="catOpen" class="hidden">
+        </div>
+        
+        <div class="controls">
+            <button id="resetButton">Reset Count</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
